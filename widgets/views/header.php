@@ -13,141 +13,25 @@
         <!-- navbar links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
+                <?php if (!empty($models)):?>
+                    <?php foreach ($models as $model) : ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?=$model->link?>"><?=$model['name_'.Yii::$app->language]?></a>
+                        </li>
+                    <?php endforeach; ?>
+                <?php endif; ?>
                 <li class="nav-item dropdown">
-                    <span class="nav-link"> Home <i class="fas fa-angle-down"></i></span>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-item">
-                            <a href="main.html">Main Home</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="index2.html">Creative Agency</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="index1.html">Business Agency</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="index-portfolio.html">Creative Portfolio <em>New</em></a>
-                        </li>
-                        <li class="dropdown-item">
-                            <span>One Page <i class="fas fa-angle-right"></i></span>
-
-                            <ul class="sub-menu">
-                                <li class="dropdown-item">
-                                    <a href="main-onepage.html">Main Home</a>
-                                </li>
-                                <li class="dropdown-item">
-                                    <a href="index2-onepage.html">Creative Agency</a>
-                                </li>
-                                <li class="dropdown-item">
-                                    <a href="index1-onepage.html">Business Agency</a>
-                                </li>
-                                <li class="dropdown-item">
-                                    <a href="personal.html">Personal Demo</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="about-us1.html">About</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="services1.html">Services</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <span class="nav-link"> Portfolio <i class="fas fa-angle-down"></i></span>
-                    <div class="mega-menu">
-                        <ul class="dropdown-menu">
-                            <span class="dropdown-title">Grid Wild</span>
-                            <li class="dropdown-item">
-                                <a href="portfolio-wild-2.html">Two Column</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="portfolio-wild-3.html">Three Column</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="portfolio-wild-4.html">Four Column</a>
-                            </li>
-                        </ul>
-                        <ul class="dropdown-menu">
-                            <span class="dropdown-title">Grid With Gutter</span>
-                            <li class="dropdown-item">
-                                <a href="portfolio-2.html">Two Column</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="portfolio-3.html">Three Column</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="portfolio-4.html">Four Column</a>
-                            </li>
-                        </ul>
-                        <ul class="dropdown-menu">
-                            <span class="dropdown-title">Masonery Wild</span>
-                            <li class="dropdown-item">
-                                <a href="portfolio-wild-masonery-2.html">Two Column</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="portfolio-wild-masonery-3.html">Three Column</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="portfolio-wild-masonery-4.html">Four Column</a>
-                            </li>
-                        </ul>
-                        <ul class="dropdown-menu">
-                            <span class="dropdown-title">Masonery With Gutter</span>
-                            <li class="dropdown-item">
-                                <a href="portfolio-masonery-2.html">Two Column</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="portfolio-masonery-3.html">Three Column</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="portfolio-masonery-4.html">Four Column</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <span class="nav-link"> Blog <i class="fas fa-angle-down"></i></span>
+                    <span class="nav-link"> <i class="fas fa-globe"></i></span>
                     <ul class="dropdown-menu last">
-                        <li class="dropdown-item">
-                            <a href="blog.html">Blog Standard</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="blog-grid.html">Blog Grid</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="blog-masonry.html">Blog Masonry</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="blog-single.html">Single Post</a>
-                        </li>
+                        <?php
+                        foreach (Yii::$app->params['language'] as $key => $value){
+                            echo "<li class='dropdown-item'><a href='".\yii\helpers\Url::to(['site/ozgar',"til"=>$key])."'>".$value."</a></li>";
+                        }
+                        ?>
                     </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <span class="nav-link"> Pages <i class="fas fa-angle-down"></i></span>
-                    <ul class="dropdown-menu last">
-                        <li class="dropdown-item">
-                            <a href="404.html">Error 404</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="comming-soon.html">Comming Soon</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="faq.html">FAQ</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="contact1.html">Contact</a>
                 </li>
             </ul>
+
         </div>
     </div>
 </nav>

@@ -5,5 +5,5 @@
 $this->title = 'Planeta Travel';
 ?>
 
-
+<?=\app\widgets\Counter::widget()?>
 
