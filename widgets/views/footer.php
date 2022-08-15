@@ -39,7 +39,7 @@
                     <div class="item mb-15">
                         <a href="#0">
                             <div class="thum">
-                                <img src="img/blog/thum/1.jpg" alt="">
+                                <img src="frontend-files/img/blog/thum/1.jpg" alt="">
                             </div>
                             <div class="cont">
                                 <h6>48 Best WordPress Themes</h6>
@@ -50,7 +50,7 @@
                     <div class="item mb-15">
                         <a href="#0">
                             <div class="thum">
-                                <img src="img/blog/thum/2.jpg" alt="">
+                                <img src="frontend-files/img/blog/thum/2.jpg" alt="">
                             </div>
                             <div class="cont">
                                 <h6>Business Strategy Consule</h6>
@@ -61,7 +61,7 @@
                     <div class="item">
                         <a href="#0">
                             <div class="thum">
-                                <img src="img/blog/thum/3.jpg" alt="">
+                                <img src="frontend-files/img/blog/thum/3.jpg" alt="">
                             </div>
                             <div class="cont">
                                 <h6>Obsession with all things</h6>

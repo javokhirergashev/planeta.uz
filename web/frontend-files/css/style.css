@@ -714,7 +714,7 @@ span, a, a:hover {
   content: "";
   width: 40%;
   height: 250px;
-  background-image: url(../img/dots.png);
+  background-image: url(frontend-files/img/dots.png);
   background-repeat: repeat;
   position: absolute;
   top: 0;
@@ -1207,7 +1207,7 @@ span, a, a:hover {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background-image: url(../img/dots.png);
+  background-image: url(fronted/files/img/dots.png);
   background-repeat: repeat;
   position: absolute;
   left: -200px;

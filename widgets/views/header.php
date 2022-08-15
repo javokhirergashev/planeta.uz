@@ -3,7 +3,7 @@
 
         <!-- Logo -->
         <a class="logo" href="#">
-            <img src="frontend-files/img/logo-light.png" alt="logo">
+            <img src="/frontend-files/img/logo-light.png" alt="logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -159,7 +159,7 @@
 <!-- =====================================
 ==== Start Header -->
 
-<header class="header valign bg-img" data-overlay-dark="5" data-background="img/bg2.jpg" data-stellar-background-ratio="0.5">
+<header class="header valign bg-img" data-overlay-dark="5" data-background="frontend-files/img/bg2.jpg" data-stellar-background-ratio="0.5">
 
     <div class="container">
         <div class="row">
