@@ -2,12 +2,16 @@
 
 namespace app\widgets;
 
+use app\models\ToursCategory;
 use yii\bootstrap4\Widget;
+use yii\helpers\Html;
+
 
 class Destination extends Widget
 {
     public function run()
     {
-        return $this->render('destination');
+        $models = ToursCategory::find()->where(["status"=>1])->all();
+        return $this->render('destination', compact("models"));
     }
 }

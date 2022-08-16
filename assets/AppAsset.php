@@ -24,10 +24,13 @@ class AppAsset extends AssetBundle
         "https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900",
         "https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800",
         "https://fonts.googleapis.com/css?family=Dosis:300,600,700",
+        "https://unicons.iconscout.com/release/v4.0.0/css/line.css",
         "css/plugins.css",
         "css/style.css",
         ];
     public $js = [
+        "js/app.js",
+        "js/scripts.js",
         "js/popper.min.js",
         "js/bootstrap.min.js",
         "js/scrollIt.min.js",
@@ -41,9 +44,7 @@ class AppAsset extends AssetBundle
         "js/isotope.pkgd.min.js",
         "js/YouTubePopUp.jquery.js",
         "js/particles.min.js",
-        "js/app.js",
         "js/validator.js",
-        "js/scripts.js",
 
     ];
   public $depends = [

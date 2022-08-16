@@ -1766,12 +1766,19 @@ span, a, a:hover {
   font-weight: 600;
   font-size: 11px;
 }
-.blog .item .info a .author {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 0 5px -6px 0;
+
+.blog .item .info i{
+  font-size: 25px;
+  line-height: 15px;
+}
+.blog .item .info .author {
+  color: #999;
+
+  /*width: 20px;*/
+  /*height: 20px;*/
+  /*border-radius: 50%;*/
+  /*overflow: hidden;*/
+  /*margin: 0 5px -6px 0;*/
   position: relative;
 }
 .blog .item .info a .icon {
