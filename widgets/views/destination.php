@@ -1,64 +1,107 @@
-<section class="works section-padding">
+<!-- Destination 1 -->
+<section class="destination1 section-padding bg-lightnav">
     <div class="container">
         <div class="row">
-
-            <div class="section-head text-center col-sm-12">
-                <h6>Our Portfolio</h6>
-                <h4>Latest <span>Creative</span> Work</h4>
+            <div class="col-md-12">
+                <div class="section-subtitle">Top Destination</div>
+                <div class="section-title">Popular <span>Destination</span></div>
             </div>
-            <?php
-                $filters = ['.graphic',  '.brand', '.web']
-            ?>
-
-
-            <!-- filter links -->
-            <div class="filtering text-center mb-30 col-sm-12">
-                <div class="filter">
-                    <?php if (!empty($filters)):?>
-                        <?php foreach ($filters as $filter):?>
-                    <?php if (!empty($models)):?>
-                        <?php foreach ($models as $model):?>
-                                <span data-filter="<?=$filter?>" class="active"><?=$model["name_".Yii::$app->language];?></span>
-                            <?php endforeach;?>
-                    <?php endif;?>
-                        <?php endforeach;?>
-                    <?php endif;?>
-
-                </div>
-
-            </div>
-
-            <div class="clearfix"></div>
-
-            <!-- gallery -->
-            <div class="gallery full-width" style="position: relative; height: 760px;">
-                    <?php if (!empty($models)):?>
-                    <?php foreach ($models as $model):?>
-
-                        <?php
-                            $img = \app\models\StaticFunctions::getImage("tours_category", $model->id, $model->images);
-                        ?>
-                <!-- gallery item -->
-                <div class="col-lg-4 col-md-6 items graphic" style="position: absolute; left: 0px; top: 0px;">
-                    <div class="item-img">
-                        <img src="<?=$img?>" alt="image">
-                        <div class="item-img-overlay">
-                            <div class="overlay-info full-width">
-                                <p><?=$model["name_".Yii::$app->language];?></p>
-<!--                                <h6>Creative Web Design</h6>-->
-                                <a href="img/portfolio/1.jpg" class="popimg">
-                                    <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
-                                </a>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="position-re o-hidden"><img src="img/destination/maldives1.jpg" alt=""></div> <span class="category"><a href="#0">New</a></span>
+                        <div class="con">
+                            <h5><a href="tour-details.html"><i class="ti-location-pin"></i> Maldives</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-8">
+                                    <p>4 Tour Packages</p>
+                                </div>
+                                <div class="col col-md-4 text-right">
+                                    <div class="permalink"><a href="tour-details.html">Explore <i class="ti-arrow-right"></i></a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img/destination/canada1.jpg" alt=""> </div> <span class="category"><a href="#0">25% OFF</a></span>
+                        <div class="con">
+                            <h5><a href="tour-details.html"><i class="ti-location-pin"></i> Canada</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-8">
+                                    <p>3 Tour Packages</p>
+                                </div>
+                                <div class="col col-md-4 text-right">
+                                    <div class="permalink"><a href="tour-details.html">Explore <i class="ti-arrow-right"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="position-re o-hidden"><img src="img/destination/italy1.jpg" alt=""></div> <span class="category"><a href="#0">7 Tours</a></span>
+                        <div class="con">
+                            <h5><a href="#0"><i class="ti-location-pin"></i> Italy</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-8">
+                                    <p>7 Tour Packages</p>
+                                </div>
+                                <div class="col col-md-4 text-right">
+                                    <div class="permalink"><a href="tour-details.html">Explore <i class="ti-arrow-right"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="position-re o-hidden"><img src="img/destination/greece1.jpg" alt=""></div> <span class="category"><a href="#0">New</a></span>
+                        <div class="con">
+                            <h5><a href="#0"><i class="ti-location-pin"></i> Greece</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-8">
+                                    <p>6 Tour Packages</p>
+                                </div>
+                                <div class="col col-md-4 text-right">
+                                    <div class="permalink"><a href="tour-details.html">Explore <i class="ti-arrow-right"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="position-re o-hidden"><img src="img/destination/france1.jpg" alt=""></div> <span class="category"><a href="#0">15% OFF</a></span>
+                        <div class="con">
+                            <h5><a href="#0"><i class="ti-location-pin"></i> France</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-8">
+                                    <p>10 Tour Packages</p>
+                                </div>
+                                <div class="col col-md-4 text-right">
+                                    <div class="permalink"><a href="tour-details.html">Explore <i class="ti-arrow-right"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="position-re o-hidden"><img src="img/destination/dubai1.jpg" alt=""></div> <span class="category"><a href="tours2.html">7 Tours</a></span>
+                        <div class="con">
+                            <h5><a href="tour-details.html"><i class="ti-location-pin"></i> Dubai</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-8">
+                                    <p>7 Tour Packages</p>
+                                </div>
+                                <div class="col col-md-4 text-right">
+                                    <div class="permalink"><a href="tour-details.html">Explore <i class="ti-arrow-right"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                    <?php endforeach;?>
-                <?php endif;?>
             </div>
-
         </div>
     </div>
 </section>
