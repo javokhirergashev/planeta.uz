@@ -1,97 +1,100 @@
-<footer class="footer">
+<!-- Footer -->
+<footer class="footer clearfix">
     <div class="container">
-        <div class="row">
-
-            <div class="col-lg-4">
-                <div class="info mb-md50">
-                    <!-- Logo -->
-                    <a class="logo" href="#">
-                        <img src="frontend-files/img/logo-light.png" alt="logo">
-                    </a>
-                    <h6>Creative <i>HTML5</i> Multipages Template.</h6>
-                    <p>We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.</p>
-                    <div class="social">
-                        <span>Social : </span>
-                        <a href="#0" class="icon">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#0" class="icon">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#0" class="icon">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#0" class="icon">
-                            <i class="fab fa-behance"></i>
-                        </a>
-                        <a href="#0" class="icon">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+        <!-- First footer -->
+        <div class="first-footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="links dark footer-contact-links">
+                        <div class="footer-contact-links-wrapper">
+                            <div class="footer-contact-link-wrapper">
+                                <div class="image-wrapper footer-contact-link-icon">
+                                    <div class="icon-footer"> <i class="flaticon-phone-call"></i> </div>
+                                </div>
+                                <div class="footer-contact-link-content">
+                                    <h6>Call us</h6>
+                                    <p>+1 123-456-0606</p>
+                                </div>
+                            </div>
+                            <div class="footer-contact-links-divider"></div>
+                            <div class="footer-contact-link-wrapper">
+                                <div class="image-wrapper footer-contact-link-icon">
+                                    <div class="icon-footer"> <i class="flaticon-message"></i> </div>
+                                </div>
+                                <div class="footer-contact-link-content">
+                                    <h6>Write to us</h6>
+                                    <p>info@travolagency.com</p>
+                                </div>
+                            </div>
+                            <div class="footer-contact-links-divider"></div>
+                            <div class="footer-contact-link-wrapper">
+                                <div class="image-wrapper footer-contact-link-icon">
+                                    <div class="icon-footer"> <i class="flaticon-placeholder"></i> </div>
+                                </div>
+                                <div class="footer-contact-link-content">
+                                    <h6>Address</h6>
+                                    <p>24 King St, SC 29401 USA</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4">
-                <div class="las-post mb-md50">
-                    <div class="title">
-                        <h5>Recent Postes</h5>
-                    </div>
-                    <div class="item mb-15">
-                        <a href="#0">
-                            <div class="thum">
-                                <img src="frontend-files/img/blog/thum/1.jpg" alt="">
-                            </div>
-                            <div class="cont">
-                                <h6>48 Best WordPress Themes</h6>
-                                <p>6 August 2018 <span>By </span> Admin</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item mb-15">
-                        <a href="#0">
-                            <div class="thum">
-                                <img src="frontend-files/img/blog/thum/2.jpg" alt="">
-                            </div>
-                            <div class="cont">
-                                <h6>Business Strategy Consule</h6>
-                                <p>6 August 2018 <span>By </span> Admin</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#0">
-                            <div class="thum">
-                                <img src="frontend-files/img/blog/thum/3.jpg" alt="">
-                            </div>
-                            <div class="cont">
-                                <h6>Obsession with all things</h6>
-                                <p>6 August 2018 <span>By </span> Admin</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="tags">
-                    <div class="title">
-                        <h5>Tag Cloud</h5>
-                    </div>
-                    <span><a href="#0">Blog</a></span>
-                    <span><a href="#0">Magazine</a></span>
-                    <span><a href="#0">Link</a></span>
-                    <span><a href="#0">Example</a></span>
-                    <span><a href="#0">Muli</a></span>
-                    <span><a href="#0">Video</a></span>
-                    <span><a href="#0">Gallery</a></span>
-                    <span><a href="#0">Quote</a></span>
-                </div>
-            </div>
-
         </div>
-    </div>
-
-    <div class="sub-footer text-center">
-        <p>&copy; 2018 <b>UI-ThemeZ</b>. All Rights Reserved.</p>
+        <!-- Second footer -->
+        <div class="second-footer">
+            <div class="row">
+                <!-- about & social icons -->
+                <div class="col-md-4 widget-area">
+                    <div class="widget clearfix">
+                        <div class="footer-logo"> <img class="img-fluid" src="img/logo-light.png" alt=""> </div>
+                        <div class="widget-text">
+                            <p>Quisque imperdiet sapien porttito the bibendum sellentesque the commodo erat acar accumsa lobortis, enim diam the nesuen.</p>
+                            <div class="social-icons">
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="ti-instagram"></i></a></li>
+                                    <li><a href="#"><i class="ti-twitter"></i></a></li>
+                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ti-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- quick links -->
+                <div class="col-md-3 offset-md-1 widget-area">
+                    <div class="widget clearfix usful-links">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="tours.html">Tours</a></li>
+                            <li><a href="destination.html">Destinations</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- subscribe -->
+                <div class="col-md-4 widget-area">
+                    <div class="widget clearfix">
+                        <h3 class="widget-title">Subscribe</h3>
+                        <p>Sign up for our monthly blogletter to stay informed about travel and tours</p>
+                        <div class="widget-newsletter">
+                            <form action="#">
+                                <input type="email" placeholder="Email Address" required>
+                                <button type="submit">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom footer -->
+        <div class="bottom-footer-text">
+            <div class="row copyright">
+                <div class="col-md-12">
+                    <p class="mb-0">©2022 <a href="#">DuruThemes</a>. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>

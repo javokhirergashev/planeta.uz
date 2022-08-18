@@ -4,10 +4,10 @@ namespace app\widgets;
 
 use yii\bootstrap4\Widget;
 
-class Gallery extends Widget
+class Partners extends Widget
 {
     public function run()
     {
-        return $this->render('gallery');
+        return $this->render('partners');
     }
 }

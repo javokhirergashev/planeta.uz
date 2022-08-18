@@ -8732,7 +8732,7 @@ envira:
   changes:
     - 4.6.0
     - 5.0.0
-  label: Envira Gallery
+  label: Envira Blog
   search:
     terms: []
   styles:

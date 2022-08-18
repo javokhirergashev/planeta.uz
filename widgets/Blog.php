@@ -4,10 +4,10 @@ namespace app\widgets;
 
 use yii\bootstrap4\Widget;
 
-class Signup extends Widget
+class Blog extends Widget
 {
     public function run()
     {
-        return $this->render('signup');
+        return $this->render('blog');
     }
 }

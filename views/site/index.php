@@ -11,12 +11,17 @@ $this->title = 'Planeta Travel';
 <?=\app\widgets\Popular::widget()?>
 <?=\app\widgets\Banner::widget()?>
 <?=\app\widgets\Destination::widget()?>
+<?=\app\widgets\Blog::widget()?>
+<?=\app\widgets\Testimonial::widget()?>
+<?=\app\widgets\Partners::widget()?>
+<?=\app\widgets\Contact::widget()?>
+<?=\app\widgets\Footer::widget()?>
+
+
 <?//=\app\widgets\Whyus::widget()?>
 <?//=\app\widgets\Services::widget()?>
-
-<?//=\app\widgets\Gallery::widget()?>
-<!---->
+<?//=\app\widgets\Blog::widget()?>
 <?//=\app\widgets\Testimonial::widget()?>
-<?//=\app\widgets\Signup::widget()?>
+<?//=\app\widgets\Partners::widget()?>
 <?//=\app\widgets\Contact::widget()?>
 
