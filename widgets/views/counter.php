@@ -1,10 +1,10 @@
 <!-- Numbers -->
 <section class="numbers">
-    <div class="section-padding bg-img bg-fixed back-position-center" data-background="img/slider/15.jpg" data-overlay-dark="6">
+    <div class="section-padding bg-img bg-fixed back-position-center" data-background="frontend-files/img/slider/15.jpg" data-overlay-dark="6">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="item text-center"> <img src="img/arrow1.png" class="tobotm" alt=""> <span class="icon">
+                    <div class="item text-center"> <img src="frontend-files/img/arrow1.png" class="tobotm" alt=""> <span class="icon">
                                 <i class="front flaticon-air-freight"></i>
                                 <i class="back flaticon-air-freight"></i>
                             </span>
@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="item text-center"> <img src="img/arrow1.png" alt=""> <span class="icon">
+                    <div class="item text-center"> <img src="frontend-files/img/arrow1.png" alt=""> <span class="icon">
                                 <i class="font flaticon-house"></i>
                                 <i class="back flaticon-house"></i>
                             </span>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="item text-center"> <img src="img/arrow1.png" class="tobotm" alt=""> <span class="icon">
+                    <div class="item text-center"> <img src="frontend-files/img/arrow1.png" class="tobotm" alt=""> <span class="icon">
                                 <i class="front flaticon-ship"></i>
                                 <i class="back flaticon-ship"></i>
                             </span>
