@@ -23,6 +23,9 @@ class AppAsset extends AssetBundle
         "img/favicon.png",
         "https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap",
         "css/plugins.css",
+        "css/plugins.css",
+        "fontawesome/css/all.css",
+        "fontawesome/css/fontawesome.css",
         "css/style.css",
         ];
     public $js = [

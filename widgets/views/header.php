@@ -11,34 +11,24 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown"> <span class="nav-link active"> Home <i class="ti-angle-down"></i></span>
+                <?php if (!empty($models)) :?>
+                    <?php foreach ($models as $model): ?>
+                        <li class="nav-item"><a class="nav-link" href="<?=$model->link?>"><?=$model['name_'.Yii::$app->language];?></a></li>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+                <li class="nav-item dropdown" style="margin-left: 50px"> <span class="nav-link"> <?=Yii::$app->language?></span>
                     <ul class="dropdown-menu last">
-                        <li class="dropdown-item"><a href="index-2.html">Home Layout 1</a></li>
-                        <li class="dropdown-item active"><a href="index2.html">Home Layout 2</a></li>
-                        <li class="dropdown-item"><a href="index3.html">Home Layout 3</a></li>
-                        <li class="dropdown-item"><a href="index4.html">Home Layout 4</a></li>
-                        <li class="dropdown-item"><a href="index5.html">Home Layout 5</a></li>
+                        <?php
+                        foreach (Yii::$app->params['language'] as $key => $value){
+                            echo "<li class='dropdown-item'><a href='".\yii\helpers\Url::to(['site/ozgar',"til"=>$key])."'>".$value."</a></li>";
+                        }
+                        ?>
+<!--                        <li class="dropdown-item"><a href="blog.html">Blog 1</a></li>-->
+<!--                        <li class="dropdown-item"><a href="blog2.html">Blog 2</a></li>-->
+<!--                        <li class="dropdown-item"><a href="post.html">Single Post</a></li>-->
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item dropdown"> <span class="nav-link"> Tours <i class="ti-angle-down"></i></span>
-                    <ul class="dropdown-menu last">
-                        <li class="dropdown-item"><a href="tours.html">Tours 1</a></li>
-                        <li class="dropdown-item"><a href="tours2.html">Tours 2</a></li>
-                        <li class="dropdown-item"><a href="tours3.html">Tours 3</a></li>
-                        <li class="dropdown-item"><a href="tour-details.html">Tour Details</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="destination.html">Destinations</a></li>
-                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                <li class="nav-item dropdown"> <span class="nav-link"> Blog <i class="ti-angle-down"></i></span>
-                    <ul class="dropdown-menu last">
-                        <li class="dropdown-item"><a href="blog.html">Blog 1</a></li>
-                        <li class="dropdown-item"><a href="blog2.html">Blog 2</a></li>
-                        <li class="dropdown-item"><a href="post.html">Single Post</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
             </ul>
         </div>
     </div>
