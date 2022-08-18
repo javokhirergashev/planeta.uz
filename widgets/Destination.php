@@ -12,6 +12,7 @@ class Destination extends Widget
     public function run()
     {
         $models = ToursCategory::find()->where(["status"=>1])->all();
+//        debug($models);
         return $this->render('destination', compact("models"));
     }
 }

@@ -35,9 +35,9 @@
                     <?php if (!empty($models)):?>
                     <?php foreach ($models as $model):?>
 
-                    <?php
-                        $img = \app\models\StaticFunctions::getImage("tours_category", $model->id, $model->images);
-                    ?>
+                        <?php
+                            $img = \app\models\StaticFunctions::getImage("tours_category", $model->id, $model->images);
+                        ?>
                 <!-- gallery item -->
                 <div class="col-lg-4 col-md-6 items graphic" style="position: absolute; left: 0px; top: 0px;">
                     <div class="item-img">
