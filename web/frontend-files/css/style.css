@@ -21,7 +21,7 @@
  19. Tour Page style
  20. CountUp Numbers style
  21. Clients style
- 22. Gallery style
+ 22. Blog style
  23. Promo Video style
  24. Testimonials style
  25. Booking style
@@ -2836,7 +2836,7 @@ ol.number li:before {
 }
 
 
-/* ======= Gallery style ======= */
+/* ======= Blog style ======= */
 .gallery-item {
     position: relative;
     padding-top: 20px;
