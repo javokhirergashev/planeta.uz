@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-subtitle"><span>Choose your place</span></div>
-                <div class="section-title">Popular <span>Tours</span></div>
+                <div class="section-subtitle"><span><?=Yii::t("app", "choose")?>></span></div>
+                <div class="section-title"><?=Yii::t("app", "popular")?> <span><?=Yii::t("app", "poptours")?></span></div>
             </div>
         </div>
         <div class="row">

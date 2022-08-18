@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-subtitle"><span>Most Popular</span></div>
-                <div class="section-title">Travel <span>Countries</span></div>
+                <div class="section-subtitle"><span><?=Yii::t("app", "most")?></span></div>
+                <div class="section-title"><?=Yii::t("app", "mosttravel")?><span><?=Yii::t("app", "country")?></span></div>
             </div>
         </div>
         <div class="row">
@@ -14,7 +14,7 @@
                         <figure><img src="img/tours/rome1.jpg" alt="" class="img-fluid"></figure>
                         <div class="caption padding-left">
                             <div class="country country1">
-                                <h3>Best Tours</h3>
+                                <h3></h3>
                                 <h4><a href="tour-details.html">Italy, Europe</a></h4>
                                 <p>Travel agency elementum sesue the aucan vestibulum aliquam justo in sapien rutrum volutpat. Donec in quis the velit.</p>
                                 <div class="row tour-list">

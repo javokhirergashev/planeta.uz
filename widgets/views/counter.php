@@ -9,7 +9,7 @@
                                 <i class="back flaticon-air-freight"></i>
                             </span>
                         <h3 class="count">600</h3>
-                        <h6>Flight Booking</h6>
+                        <h6><?=Yii::t("app", "flight")?></h6>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -18,7 +18,7 @@
                                 <i class="back flaticon-house"></i>
                             </span>
                         <h3 class="count">250</h3>
-                        <h6>Amazing Tour</h6>
+                        <h6><?=Yii::t("app", "amazing")?></h6>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -27,7 +27,7 @@
                                 <i class="back flaticon-ship"></i>
                             </span>
                         <h3 class="count">100</h3>
-                        <h6>Cruises Booking</h6>
+                        <h6><?=Yii::t("app", "cruises ")?></h6>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -36,7 +36,7 @@
                                 <i class="back flaticon-tag"></i>
                             </span>
                         <h3 class="count">100</h3>
-                        <h6>Ticket Booking</h6>
+                        <h6><?=Yii::t("app", "ticket")?></h6>
                     </div>
                 </div>
             </div>

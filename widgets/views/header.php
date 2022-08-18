@@ -23,9 +23,7 @@
                             echo "<li class='dropdown-item'><a href='".\yii\helpers\Url::to(['site/ozgar',"til"=>$key])."'>".$value."</a></li>";
                         }
                         ?>
-<!--                        <li class="dropdown-item"><a href="blog.html">Blog 1</a></li>-->
-<!--                        <li class="dropdown-item"><a href="blog2.html">Blog 2</a></li>-->
-<!--                        <li class="dropdown-item"><a href="post.html">Single Post</a></li>-->
+
                     </ul>
                 </li>
 
@@ -36,14 +34,13 @@
 <!-- Slider -->
 <header class="header slider-fade">
     <div class="owl-carousel owl-theme">
-        <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
         <div class="text-center item bg-img" data-overlay-dark="5" data-background="frontend-files/img/slider/1.jpg">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
-                            <h4>Let's travel the world with us</h4>
-                            <h1>Explore The World With <span>Travol</span></h1>
+                            <h4><?=Yii::t("app", "letsgo")?></h4>
+                            <h1><?=Yii::t("app", "world1")?><span><?=Yii::t("app", "travel1")?></span></h1>
                         </div>
                     </div>
                 </div>
@@ -54,8 +51,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
-                            <h4>Let's travel the world with us</h4>
-                            <h1>Explore Rome With <span>Travol</span></h1>
+                            <h4><?=Yii::t("app", "letsgo")?></h4>
+                            <h1><?=Yii::t("app", "roma")?><span><?=Yii::t("app", "travel")?></span></h1>
                         </div>
                     </div>
                 </div>
@@ -66,8 +63,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
-                            <h4>Let's travel the world with us</h4>
-                            <h1><span>Discover</span> the world with our guide</h1>
+                            <h4><?=Yii::t("app", "letsgo")?></h4>
+                            <h1><span><?=Yii::t("app", "discover")?></span><?=Yii::t("app", "world")?></h1>
                         </div>
                     </div>
                 </div>

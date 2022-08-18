@@ -3,21 +3,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
-                <div class="section-subtitle">The best travel agency</div>
-                <div class="section-title">Discover the <span>world</span> with our guide</div>
-                <p>You can choose any country with good tourism. Agency elementum sesue the aucan vestibulum aliquam justo in sapien rutrum volutpat. Donec in quis the pellentesque velit. Donec id velit ac arcu posuere blane.</p>
-                <p>Hotel ut nisl quam nestibulum ac quam nec odio elementum ceisue the miss varius natoque penatibus et magnis dis parturient monte.</p>
+                <div class="section-subtitle"><?=Yii::t("app", "best")?></div>
+                <div class="section-title"><?=Yii::t("app", "aboutDis")?><span><?=Yii::t("app", "aboutW")?></span><?=Yii::t("app", "aboutg")?></div>
+                <p><?=Yii::t("app", "aboutp1")?></p>
+                <p><?=Yii::t("app", "aboutp2")?></p>
                 <ul class="list-unstyled about-list mb-30">
                     <li>
                         <div class="about-list-icon"> <span class="ti-check"></span> </div>
                         <div class="about-list-text">
-                            <p>20 Years of Experience</p>
+                            <p>20 <?=Yii::t("app", "experience")?></p>
                         </div>
                     </li>
                     <li>
                         <div class="about-list-icon"> <span class="ti-check"></span> </div>
                         <div class="about-list-text">
-                            <p>150+ Tour Destinations</p>
+                            <p>150+ <?=Yii::t("app", "tourdes")?></p>
                         </div>
                     </li>
                 </ul>
@@ -25,7 +25,7 @@
                 <div class="phone-call mb-30">
                     <div class="icon"><span class="flaticon-phone-call"></span></div>
                     <div class="text">
-                        <p>For information</p> <a href="tel:855-333-4444">855 333 4444</a>
+                        <p><?=Yii::t("app", "information")?></p> <a href="tel:855-333-4444">855 333 4444</a>
                     </div>
                 </div>
             </div>
