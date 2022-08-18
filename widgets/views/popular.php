@@ -11,7 +11,7 @@
             <div class="col-md-12">
                 <div class="owl-carousel owl-theme">
                     <div class="tours2 left">
-                        <figure><img src="img/tours/rome1.jpg" alt="" class="img-fluid"></figure>
+                        <figure><img src="frontend-files/img/tours/rome1.jpg" alt="" class="img-fluid"></figure>
                         <div class="caption padding-left">
                             <div class="country country1">
                                 <h3>Best Tours</h3>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="tours2">
-                        <figure><img src="img/tours/france2.jpg" alt="" class="img-fluid"></figure>
+                        <figure><img src="frontend-files/img/tours/france2.jpg" alt="" class="img-fluid"></figure>
                         <div class="caption padding-left">
                             <div class="country country2">
                                 <h3>Best Tours</h3>

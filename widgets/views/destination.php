@@ -11,7 +11,7 @@
             <div class="col-md-12">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <div class="position-re o-hidden"><img src="img/destination/maldives1.jpg" alt=""></div> <span class="category"><a href="#0">New</a></span>
+                        <div class="position-re o-hidden"><img src="frontend-files/img/destination/maldives1.jpg" alt=""></div> <span class="category"><a href="#0">New</a></span>
                         <div class="con">
                             <h5><a href="tour-details.html"><i class="ti-location-pin"></i> Maldives</a></h5>
                             <div class="line"></div>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/destination/canada1.jpg" alt=""> </div> <span class="category"><a href="#0">25% OFF</a></span>
+                        <div class="position-re o-hidden"> <img src="frontend-files/img/destination/canada1.jpg" alt=""> </div> <span class="category"><a href="#0">25% OFF</a></span>
                         <div class="con">
                             <h5><a href="tour-details.html"><i class="ti-location-pin"></i> Canada</a></h5>
                             <div class="line"></div>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"><img src="img/destination/italy1.jpg" alt=""></div> <span class="category"><a href="#0">7 Tours</a></span>
+                        <div class="position-re o-hidden"><img src="frontend-files/img/destination/italy1.jpg" alt=""></div> <span class="category"><a href="#0">7 Tours</a></span>
                         <div class="con">
                             <h5><a href="#0"><i class="ti-location-pin"></i> Italy</a></h5>
                             <div class="line"></div>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"><img src="img/destination/greece1.jpg" alt=""></div> <span class="category"><a href="#0">New</a></span>
+                        <div class="position-re o-hidden"><img src="frontend-files/img/destination/greece1.jpg" alt=""></div> <span class="category"><a href="#0">New</a></span>
                         <div class="con">
                             <h5><a href="#0"><i class="ti-location-pin"></i> Greece</a></h5>
                             <div class="line"></div>
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"><img src="img/destination/france1.jpg" alt=""></div> <span class="category"><a href="#0">15% OFF</a></span>
+                        <div class="position-re o-hidden"><img src="frontend-files/img/destination/france1.jpg" alt=""></div> <span class="category"><a href="#0">15% OFF</a></span>
                         <div class="con">
                             <h5><a href="#0"><i class="ti-location-pin"></i> France</a></h5>
                             <div class="line"></div>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"><img src="img/destination/dubai1.jpg" alt=""></div> <span class="category"><a href="tours2.html">7 Tours</a></span>
+                        <div class="position-re o-hidden"><img src="frontend-files/img/destination/dubai1.jpg" alt=""></div> <span class="category"><a href="tours2.html">7 Tours</a></span>
                         <div class="con">
                             <h5><a href="tour-details.html"><i class="ti-location-pin"></i> Dubai</a></h5>
                             <div class="line"></div>

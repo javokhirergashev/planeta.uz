@@ -47,7 +47,7 @@
                 <!-- about & social icons -->
                 <div class="col-md-4 widget-area">
                     <div class="widget clearfix">
-                        <div class="footer-logo"> <img class="img-fluid" src="img/logo-light.png" alt=""> </div>
+                        <div class="footer-logo"> <img class="img-fluid" src="frontend-files/img/logo-light.png" alt=""> </div>
                         <div class="widget-text">
                             <p>Quisque imperdiet sapien porttito the bibendum sellentesque the commodo erat acar accumsa lobortis, enim diam the nesuen.</p>
                             <div class="social-icons">
@@ -92,7 +92,7 @@
         <div class="bottom-footer-text">
             <div class="row copyright">
                 <div class="col-md-12">
-                    <p class="mb-0">©2022 <a href="#">DuruThemes</a>. All rights reserved.</p>
+                    <p class="mb-0">©2022 <a href="#">WEBSPACE</a>. All rights reserved.</p>
                 </div>
             </div>
         </div>

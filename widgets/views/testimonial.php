@@ -1,6 +1,6 @@
 <!-- Testimonials -->
 <section class="testimonials">
-    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/15.jpg" data-overlay-dark="5">
+    <div class="background bg-img bg-fixed section-padding pb-0" data-background="frontend-files/img/slider/15.jpg" data-overlay-dark="5">
         <div class="container">
             <div class="row">
                 <!-- Call Now  -->
@@ -26,7 +26,7 @@
                             <div class="item">
                                 <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
                                 <div class="info">
-                                    <div class="author-img"> <img src="img/team/04.png" alt=""> </div>
+                                    <div class="author-img"> <img src="frontend-files/img/team/04.png" alt=""> </div>
                                     <div class="cont">
                                         <div class="rating"> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> </div>
                                         <h6>Nolan White</h6> <span>Guest review</span>
@@ -36,7 +36,7 @@
                             <div class="item">
                                 <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
                                 <div class="info">
-                                    <div class="author-img"> <img src="img/team/05.png" alt=""> </div>
+                                    <div class="author-img"> <img src="frontend-files/img/team/05.png" alt=""> </div>
                                     <div class="cont">
                                         <div class="rating"> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> </div>
                                         <h6>Emily Brown</h6> <span>Guest review</span>
@@ -46,7 +46,7 @@
                             <div class="item">
                                 <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
                                 <div class="info">
-                                    <div class="author-img"> <img src="img/team/06.png" alt=""> </div>
+                                    <div class="author-img"> <img src="frontend-files/img/team/06.png" alt=""> </div>
                                     <div class="cont">
                                         <div class="rating"> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> </div>
                                         <h6>Olivia Martin</h6> <span>Guest review</span>

@@ -11,7 +11,7 @@
             <div class="col-md-12">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/blog/1.jpg" alt="">
+                        <div class="position-re o-hidden"> <img src="frontend-files/img/blog/1.jpg" alt="">
                             <div class="date">
                                 <a href="post.html"> <span>Dec</span> <i>02</i> </a>
                             </div>
@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/blog/2.jpg" alt="">
+                        <div class="position-re o-hidden"> <img src="frontend-files/img/blog/2.jpg" alt="">
                             <div class="date">
                                 <a href="post.html"> <span>Dec</span> <i>04</i> </a>
                             </div>
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/blog/3.jpg" alt="">
+                        <div class="position-re o-hidden"> <img src="frontend-files/img/blog/3.jpg" alt="">
                             <div class="date">
                                 <a href="post.html"> <span>Dec</span> <i>06</i> </a>
                             </div>
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/blog/4.jpg" alt="">
+                        <div class="position-re o-hidden"> <img src="frontend-files/img/blog/4.jpg" alt="">
                             <div class="date">
                                 <a href="post.html"> <span>Dec</span> <i>10</i> </a>
                             </div>
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/blog/5.jpg" alt="">
+                        <div class="position-re o-hidden"> <img src="frontend-files/img/blog/5.jpg" alt="">
                             <div class="date">
                                 <a href="post.html"> <span>Dec</span> <i>15</i> </a>
                             </div>
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/blog/6.jpg" alt="">
+                        <div class="position-re o-hidden"> <img src="frontend-files/img/blog/6.jpg" alt="">
                             <div class="date">
                                 <a href="post.html"> <span>Dec</span> <i>18</i> </a>
                             </div>
