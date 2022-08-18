@@ -4,7 +4,7 @@
         <!-- Logo -->
         <div class="logo-wrapper navbar-brand valign">
             <a href="index2.html">
-                <div class="logo"> <img src="img/logo-light.png" class="logo-img" alt=""> </div>
+                <div class="logo"> <img src="frontend-files/img/logo-light.png" class="logo-img" alt=""> </div>
             </a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>
@@ -47,7 +47,7 @@
 <header class="header slider-fade">
     <div class="owl-carousel owl-theme">
         <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
-        <div class="text-center item bg-img" data-overlay-dark="5" data-background="img/slider/1.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="frontend-files/img/slider/1.jpg">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-center item bg-img" data-overlay-dark="5" data-background="img/slider/2.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="frontend-files/img/slider/2.jpg">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-center item bg-img" data-overlay-dark="5" data-background="img/slider/3.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="frontend-files/img/slider/3.jpg">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
