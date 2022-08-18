@@ -20,16 +20,31 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
-
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-144098545-1');
+    </script>
     <?php $this->head() ?>
 </head>
 <body>
-<div class="loading">
-    <div class="text-center middle">
-        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+<!-- Preloader -->
+<div class="preloader-bg"></div>
+<div id="preloader">
+    <div id="preloader-status">
+        <div class="preloader-position loader"> <span></span> </div>
     </div>
 </div>
-<!-- Preloader End -->
+<!-- Progress scroll totop -->
+<div class="progress-wrap cursor-pointer">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>
+
     <?=\app\widgets\Header::widget()?>
     <?= $content ?>
     <?=\app\widgets\Footer::widget()?>
