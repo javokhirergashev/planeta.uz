@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
                 <div class="section-subtitle"><?=Yii::t("app", "best")?></div>
-                <div class="section-title"><?=Yii::t("app", "aboutDis")?><span><?=Yii::t("app", "aboutW")?></span><?=Yii::t("app", "aboutg")?></div>
+                <div class="section-title"><?=Yii::t("app", "aboutDis")?> <span><?=Yii::t("app", "aboutW")?></span> <?=Yii::t("app", "aboutg")?></div>
                 <p><?=Yii::t("app", "aboutp1")?></p>
                 <p><?=Yii::t("app", "aboutp2")?></p>
                 <ul class="list-unstyled about-list mb-30">
@@ -32,7 +32,7 @@
             <div class="col-md-5 offset-md-1 animate-box" data-animate-effect="fadeInUp">
                 <div class="img-exp">
                     <div class="about-img">
-                        <div class="img"> <img src="frontend-files/frontend-files/img/about.jpg" class="img-fluid" alt=""> </div>
+                        <div class="img"> <img src="frontend-files/img/about.jpg" class="img-fluid" alt=""> </div>
                     </div>
                     <div id="circle">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">

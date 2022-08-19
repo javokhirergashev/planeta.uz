@@ -3,27 +3,40 @@
     <div class="container">
         <div class="row mb-90">
             <div class="col-md-6 mb-60">
-                <h3>Travel Agency Inc.</h3>
-                <p>Travel duru nisl quam nestibulum ac quam nec odio elementum sceisue the aucan ligula. Orci varius natoque penatibus et magnis dis parturient monte nascete ridiculus mus nellentesque habitant morbine.</p>
+
+                <h3><?=Yii::t("app", "contactt1")?></h3>
+                <p><?=Yii::t("app", "contactp")?></p>
+
                 <div class="phone-call mb-30">
                     <div class="icon"><span class="flaticon-phone-call"></span></div>
                     <div class="text">
-                        <p>Phone</p> <a href="tel:855-333-4444">855 333 4444</a>
+                        <p><?=Yii::t("app", "tel")?></p> <a href="#"><?=$model->first_phone?></a>
                     </div>
                 </div>
                 <div class="phone-call mb-30">
                     <div class="icon"><span class="flaticon-message"></span></div>
                     <div class="text">
-                        <p>e-Mail Address</p> <a href="mailto:info@luxuryhotel.com">info@luxuryhotel.com</a>
+                        <p><?=Yii::t("app", "email")?></p> <a href="mailto:info@luxuryhotel.com"><?=$model->email?></a>
                     </div>
                 </div>
                 <div class="phone-call">
                     <div class="icon"><span class="flaticon-placeholder"></span></div>
                     <div class="text">
-                        <p>Location</p> 1616 Broadway NY, New York 10001
-                        <br>United States of America
+                        <p><?=Yii::t('app','location')?></p><?=$model->addres?>
                     </div>
                 </div>
+
+                <?php if (!empty($models)): ?>
+                    <?php foreach ($models as $model): ?>
+                        <div class="footer-social-links mb-90 mb-xs-40">
+                            <a href="<?=$model->facebook_link?>" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i> <span class="sr-only">Facebook profile</span></a>
+                            <a href="<?=$model->tweetter_link?>" title="Twitter" target="_blank"><i class="fab fa-twitter"></i> <span class="sr-only">Twitter profile</span></a>
+                            <a href="<?=$model->telegram_link?>" title="Telegram" target="_blank"><i class="fab fa-telegram"></i> <span class="sr-only">Behance profile</span></a>
+                            <a href="<?=$model->instagram_link?>" title="Instagram" target="_blank"><i class="fab fa-instagram"></i> <span class="sr-only">Pinterest profile</span></a>
+                        </div>
+                    <?php endforeach;?>
+                <?php endif; ?>
+
             </div>
             <div class="col-md-5 mb-30 offset-md-1">
                 <div class="sidebar">
@@ -40,22 +53,35 @@
                                 <!-- form elements -->
                                 <div class="row">
                                     <div class="col-md-6 form-group">
-                                        <input name="name" type="text" placeholder="Your Name *" required>
+                                        <input type="text" id="input_name" placeholder="<?=Yii::t('app','name')?>*" name="name" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="email" type="email" placeholder="Your Email *" required>
+                                        <input type="text" id="input_surname" placeholder="<?=Yii::t("app", "surname")?>*" name="email" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="phone" type="text" placeholder="Your Number *" required>
+                                        <input type="number" id="input_tel" placeholder="<?=Yii::t("app", "tel")?>*" name="Subject"required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="subject" type="text" placeholder="Subject *" required>
+                                        <input type="datetime-local" id="input_data" placeholder="<?=Yii::t("app", "data")?>"required>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input type="email" id="input_email" placeholder="<?=Yii::t("app", "email")?>*" name="email" required>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <select id="select" data-aos="fade-up">
+                                            <option disabled selected><?= Yii::t("app", "category1")?></option>
+                                            <?php if(!empty($contacts)):?>
+                                                <?php foreach ($contacts as $contact):?>
+                                                    <option><?=$contact["title_".Yii::$app->language];?></option>
+                                                <?php endforeach;?>
+                                            <?php endif;?>
+                                        </select>
                                     </div>
                                     <div class="col-md-12 form-group">
                                         <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
                                     </div>
                                     <div class="col-md-12">
-                                        <button class="butn-dark"><a href="#0"><span>Send Message</span></a></button>
+                                        <button class="butn-dark"><a href="#0"><span><?=Yii::t("app", "send")?></span></a></button>
                                     </div>
                                 </div>
                             </form>

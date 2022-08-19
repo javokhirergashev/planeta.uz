@@ -45,7 +45,7 @@
 <!--                                            </ul>-->
 <!--                                        </div>-->
                                     </div>
-                                    <div class="btn-line"><a href="tour-details.html">Tour details</a></div>
+                                    <div class="btn-line"><a href="<?=\yii\helpers\Url::to(["toursview/view", "id"=>$model->id])?>"><?=Yii::t("app", "more")?></a></div>
                                 </div>
                             </div>
                         </div>

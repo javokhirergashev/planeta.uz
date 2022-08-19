@@ -4,7 +4,7 @@
         <!-- Logo -->
         <div class="logo-wrapper navbar-brand valign">
             <a href="index2.html">
-                <div class="logo"> <img src="frontend-files/img/logo-light.png" class="logo-img" alt=""> </div>
+                <div class="logo"> <img src="/frontend-files/img/logo-light.png" class="logo-img" alt=""> </div>
             </a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>
@@ -34,37 +34,37 @@
 <!-- Slider -->
 <header class="header slider-fade">
     <div class="owl-carousel owl-theme">
-        <div class="text-center item bg-img" data-overlay-dark="5" data-background="frontend-files/img/slider/1.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="/frontend-files/img/slider/1.jpg">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
                             <h4><?=Yii::t("app", "letsgo")?></h4>
-                            <h1><?=Yii::t("app", "world1")?><span><?=Yii::t("app", "travel1")?></span></h1>
+                            <h1><?=Yii::t("app", "world1")?> <span><?=Yii::t("app", "travel1")?></span> </h1>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center item bg-img" data-overlay-dark="5" data-background="frontend-files/img/slider/2.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="/frontend-files/img/slider/2.jpg">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
                             <h4><?=Yii::t("app", "letsgo")?></h4>
-                            <h1><?=Yii::t("app", "roma")?><span><?=Yii::t("app", "travel")?></span></h1>
+                            <h1><?=Yii::t("app", "roma")?> <span><?=Yii::t("app", "travel")?></span> </h1>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center item bg-img" data-overlay-dark="5" data-background="frontend-files/img/slider/3.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="/frontend-files/img/slider/3.jpg">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
                             <h4><?=Yii::t("app", "letsgo")?></h4>
-                            <h1><span><?=Yii::t("app", "discover")?></span><?=Yii::t("app", "world")?></h1>
+                            <h1><span><?=Yii::t("app", "discover")?> </span><?=Yii::t("app", "world")?> </h1>
                         </div>
                     </div>
                 </div>

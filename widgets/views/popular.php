@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-subtitle"><span><?=Yii::t("app", "most")?></span></div>
-                <div class="section-title"><?=Yii::t("app", "mosttravel")?><span><?=Yii::t("app", "country")?></span></div>
+                <div class="section-subtitle"> <span><?=Yii::t("app", "most")?></span> </div>
+                <div class="section-title"><?=Yii::t("app", "mosttravel")?> <span><?=Yii::t("app", "country")?></span> </div>
             </div>
         </div>
         <div class="row">
@@ -15,8 +15,8 @@
                         <div class="caption padding-left">
                             <div class="country country1">
                                 <h3></h3>
-                                <h4><a href="tour-details.html">Italy, Europe</a></h4>
-                                <p>Travel agency elementum sesue the aucan vestibulum aliquam justo in sapien rutrum volutpat. Donec in quis the velit.</p>
+                                <h4><a href="tour-details.html"><?=Yii::t("app", "italy")?></a></h4>
+                                <p><?=Yii::t("app", "italyp")?></p>
                                 <div class="row tour-list">
                                     <div class="col-md-4">
                                         <ul>
@@ -50,8 +50,8 @@
                         <div class="caption padding-left">
                             <div class="country country2">
                                 <h3>Best Tours</h3>
-                                <h4><a href="tour-details.html">France, Europe</a></h4>
-                                <p>Spacious, bright guestrooms with tasteful furnishing, wooden floor and panoramic windows from the ceiling to the floor.</p>
+                                <h4><a href="tour-details.html"><?=Yii::t("app", "italy")?></a></h4>
+                                <p><?=Yii::t("app", "italyp")?></p>
                                 <div class="row tour-list">
                                     <div class="col-md-4">
                                         <ul>
@@ -75,7 +75,7 @@
                                 <hr class="border-2">
                                 <div class="info-wrapper">
                                     <div class="more"><a href="tour-details.html" class="link-btn" tabindex="0">View all places <i class="ti-arrow-right"></i></a></div>
-                                    <div class="butn-dark"> <a href="#" data-scroll-nav="1"><span>Book Now</span></a> </div>
+                                    <div class="butn-dark"> <a href="#" data-scroll-nav="1"><span><?=Yii::t("app", "book")?></span></a> </div>
                                 </div>
                             </div>
                         </div>

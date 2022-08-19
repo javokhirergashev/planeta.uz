@@ -7,7 +7,7 @@ class HotelController extends GeneralController
 {
     public function actionView()
     {
-        $models = Hotel::find()->where(['status' => 1,])->all();
+        $models = \app\models\Hotel::find()->where(['status'=>1,])->orderBy(['status'=>SORT_ASC])->all();
 //        debug($models);die();
 //          $image = StaticFunctions::getImage('tours',$models->id,$models->images);
         return $this->render('view', compact('models'));

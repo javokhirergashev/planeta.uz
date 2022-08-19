@@ -27,7 +27,7 @@
                                 <i class="back flaticon-ship"></i>
                             </span>
                         <h3 class="count">100</h3>
-                        <h6><?=Yii::t("app", "cruises ")?></h6>
+                        <h6><?=Yii::t("app", "cruises")?></h6>
                     </div>
                 </div>
                 <div class="col-md-3">
