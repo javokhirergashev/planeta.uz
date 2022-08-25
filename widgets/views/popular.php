@@ -39,8 +39,8 @@
                                 </div>
                                 <hr class="border-2">
                                 <div class="info-wrapper">
-                                    <div class="more"><a href="tour-details.html" class="link-btn" tabindex="0">View all places <i class="ti-arrow-right"></i></a></div>
-                                    <div class="butn-dark"> <a href="#" data-scroll-nav="1"><span>Book Now</span></a> </div>
+                                    <div class="more"><a href="tour-details.html" class="link-btn" tabindex="0"><?=Yii::t("app", "view")?><i class="ti-arrow-right"></i></a></div>
+                                    <div class="butn-dark"> <a href="#" data-scroll-nav="1"><span><?=Yii::t("app", "book")?></span></a> </div>
                                 </div>
                             </div>
                         </div>

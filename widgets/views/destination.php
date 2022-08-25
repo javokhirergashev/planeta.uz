@@ -26,7 +26,7 @@
 <!--                                    <p>4 Tour Packages</p>-->
                                 </div>
                                 <div class="col col-md-4 text-right">
-                                    <div class="permalink"><a href="<?=\yii\helpers\Url::to(["/tours/view", "id"=>$model->id])?>"><?=Yii::t("app", "more")?> <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a href="<?=\yii\helpers\Url::to(["/category/view", "id"=>$model->id])?>"><?=Yii::t("app", "more")?> <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>

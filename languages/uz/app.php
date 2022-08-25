@@ -16,8 +16,7 @@ return[
 
 //    About page
     "best" => "Eng yaxshi sayyohlik agentligi",
-    "aboutDis" => "dunyoni bizning",
-    "aboutW" => "Yo'lboshchimiz",
+    "aboutDis" => "dunyoni",
     "aboutg" => "bilan kashf eting",
     "aboutp1" => "Yaxshi turizmga ega har qanday mamlakatni tanlashingiz mumkin. Biz siz uchun barcha qulayliklarni yaratib beramiz. Bizda  siz uchun qulay narxlar sarguzashtga boy sayohatlar mavjud.",
     "aboutp2" => "Bizning mehmonxonalarimiz siz uchun juda qulay va xamyonbob",
@@ -53,7 +52,7 @@ return[
     "france" => "Fransiya, Yevropa",
     "italyp"  => "Italiya Respublikasi Yevropa janubida, Oʻrta dengiz havzasida joylashgan davlat. Apennin yarim orol, Sitsiliya, Sardiniya va boshqa kichik orollarni oʻz ichiga olgan.",
     "francep"  => "Gʻarbiy Yevropadagi davlat. Gʻarbda va shimolda Atlantika okeani hamda La-Mansh boʻgʻozi, janubida Oʻrta dengiz bilan oʻralgan.",
-
+    "view" => "Barcha joylarni ko'rish",
 
 
 //     blog page

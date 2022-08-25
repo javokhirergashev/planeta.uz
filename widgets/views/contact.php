@@ -6,7 +6,8 @@
 
                 <h3><?=Yii::t("app", "contactt1")?></h3>
                 <p><?=Yii::t("app", "contactp")?></p>
-
+                <?php if (!empty($models)): ?>
+                <?php foreach ($models as $model): ?>
                 <div class="phone-call mb-30">
                     <div class="icon"><span class="flaticon-phone-call"></span></div>
                     <div class="text">
@@ -25,6 +26,9 @@
                         <p><?=Yii::t('app','location')?></p><?=$model->addres?>
                     </div>
                 </div>
+                    <?php endforeach;?>
+                <?php endif; ?>
+
 
                 <?php if (!empty($models)): ?>
                     <?php foreach ($models as $model): ?>
@@ -56,13 +60,13 @@
                                         <input type="text" id="input_name" placeholder="<?=Yii::t('app','name')?>*" name="name" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input type="text" id="input_surname" placeholder="<?=Yii::t("app", "surname")?>*" name="email" required>
+                                        <input type="text" id="input_surname" placeholder="<?=Yii::t("app", "surname")?>*" name="surname" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input type="number" id="input_tel" placeholder="<?=Yii::t("app", "tel")?>*" name="Subject"required>
+                                        <input type="number" id="input_tel" placeholder="<?=Yii::t("app", "tel")?>*" name="Subject" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input type="datetime-local" id="input_data" placeholder="<?=Yii::t("app", "data")?>"required>
+                                        <input type="datetime-local" id="input_data" placeholder="<?=Yii::t("app", "data")?>" required>
                                     </div>
                                     <div class="col-md-12 form-group">
                                         <input type="email" id="input_email" placeholder="<?=Yii::t("app", "email")?>*" name="email" required>
@@ -81,7 +85,7 @@
                                         <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
                                     </div>
                                     <div class="col-md-12">
-                                        <button class="butn-dark"><a href="#0"><span><?=Yii::t("app", "send")?></span></a></button>
+                                        <button id="submit" onclick="getValue()" class="butn-dark"><a href="#0"><span><?=Yii::t("app", "send")?></span></a></button>
                                     </div>
                                 </div>
                             </form>
