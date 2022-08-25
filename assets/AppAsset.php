@@ -24,11 +24,13 @@ class AppAsset extends AssetBundle
         "https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap",
         "css/plugins.css",
         "css/plugins.css",
-        "fontawesome/css/all.css",
-        "fontawesome/css/fontawesome.css",
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css",
+//        "fontawesome/css/all.css",
+//        "fontawesome/css/fontawesome.css",
         "css/style.css",
         ];
     public $js = [
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js",
         "https://www.googletagmanager.com/gtag/js?id=UA-144098545-1",
         "js/jquery-3.6.0.min.js",
         "js/jquery-migrate-3.0.0.min.js",
