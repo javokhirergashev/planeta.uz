@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="frontend-files/img/blog/6.jpg" alt="">
+                        <div class="position-re o-hidden"> <img src="/frontend-files/img/blog/6.jpg" alt="">
 <!--                            <div class="date">-->
 <!--                                <a href="post.html"> <span>Dec</span> <i>18</i> </a>-->
 <!--                            </div>-->
