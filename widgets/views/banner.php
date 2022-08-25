@@ -1,7 +1,7 @@
 <!-- Banner Tour Video -->
 <section class="dynamic-video-wrapper" data-overlay-dark="3">
     <video width="100%" height="100%" autoplay="autoplay" muted preload="auto" loop="loop">
-        <source src="frontend-files/img/travel-video.mp4" type="video/mp4">
+        <source src="/frontend-files/img/travel-video.mp4" type="video/mp4">
     </video>
     <div class="wrap-content v-middle">
         <div class="container">
