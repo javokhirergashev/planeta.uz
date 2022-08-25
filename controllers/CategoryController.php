@@ -9,12 +9,13 @@ class CategoryController extends GeneralController
 {
     public function actionView($id)
     {
-        $models = Tours::find()->where(['status' => 1,])->all();
-
-        if (empty($models)) {
-            $this->redirect('/error/view');
+       $models = Tours::find()->where(['category_id'=> $id])->all();
+        $categories = ToursCategory::find()->where(['id'=>$id])->all();
+//        debug($models);
+        if (empty($models && $categories)){
+           return $this->redirect('/error/view');
         } else
 //            $image = StaticFunctions::getImage('tours',$model->id,$model->images);
-            return $this->render('view', compact('models'));
+            return $this->render('view', compact('models', 'categories'));
     }
 }

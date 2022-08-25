@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
                 <div class="section-subtitle"><?=Yii::t("app", "best")?></div>
-                <div class="section-title"><?=Yii::t("app", "aboutDis")?> <span><?=Yii::t("app", "aboutW")?></span> <?=Yii::t("app", "aboutg")?></div>
+                <div class="section-title"><?=Yii::t("app", "aboutDis")?> <span><?=Yii::t("app", "aboutg")?></span> </div>
                 <p><?=Yii::t("app", "aboutp1")?></p>
                 <p><?=Yii::t("app", "aboutp2")?></p>
                 <ul class="list-unstyled about-list mb-30">

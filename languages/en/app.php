@@ -15,9 +15,9 @@ return[
 
     //    About page
     "best" => "The best travel agency",
-    "aboutDis" => "discover the",
+    "aboutDis" => "Discover the",
     "aboutW" => "World",
-    "aboutg" => "with our guide",
+    "aboutg" => "with us",
     "aboutp1" => "You can choose any country with good tourism. We will create all the comforts for you. We have adventure tours for you at affordable prices.",
     "aboutp2" => "Our hotels are very convenient and affordable for you",
     "experience" => "Years of Experience",
@@ -36,6 +36,11 @@ return[
     "ticket" => "Ticket booking",
 
 
+    //    destination page
+    "topdes" => "The best directions",
+    "popdes" => "directions",
+
+
     //    Popular page
     "most" => "most poular",
     "mosttravel" => "travel",
@@ -45,7 +50,7 @@ return[
     "france" => "France, Europe",
     "italyp"  => "A country located in southern Europe, in the Mediterranean basin. The Apennine Peninsula included Sicily, Sardinia and other small islands.",
     "francep" => "A country in Western Europe. It is surrounded by the Atlantic Ocean and the English Channel to the west and north, and the Mediterranean Sea to the south.",
-
+    "view" => "View all locations",
 
 
 //     blog page
