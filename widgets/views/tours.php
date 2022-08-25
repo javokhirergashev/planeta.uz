@@ -30,7 +30,7 @@
                                 <div class="square-container2">
                                     <h4><?=$model['title_'.Yii::$app->language];?></h4>
                                     <h6><?=$model->price?></h6>
-                                    <p><?=$model['description_'.Yii::$app->language];?></p>
+                                        <p><?=$model['description_'.Yii::$app->language];?></p>
                                     <div class="row tour-list mb-30">
                                         <div class="col col-md-6">
                                             <ul>

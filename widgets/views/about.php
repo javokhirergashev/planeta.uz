@@ -32,7 +32,7 @@
             <div class="col-md-5 offset-md-1 animate-box" data-animate-effect="fadeInUp">
                 <div class="img-exp">
                     <div class="about-img">
-                        <div class="img"> <img src="frontend-files/img/about.jpg" class="img-fluid" alt=""> </div>
+                        <div class="img"> <img src="/frontend-files/img/about.jpg" class="img-fluid" alt=""> </div>
                     </div>
                     <div id="circle">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
