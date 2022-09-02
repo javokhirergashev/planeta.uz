@@ -52,6 +52,11 @@ return[
     "view" => "Посмотреть все локации",
 
 
+    //  Banner page
+        "banner_info" => "Biz bilan birga ekanligingizdan juda hursandmiz",
+
+
+
 //     blog page
     "travelblog" => "блог о путешествиях",
     "travelexp" => "Опыт",

@@ -53,6 +53,11 @@ return[
     "view" => "View all locations",
 
 
+    //  Banner page
+    "banner_info" => "Мы очень гордимся тем, что вы с нами",
+
+
+
 //     blog page
     "travelblog" => "Travel blog",
     "travelexp" => "Travel",

@@ -21,10 +21,11 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web/frontend-files';
     public $css = [
         "img/favicon.png",
+        "https://unicons.iconscout.com/release/v4.0.0/css/line.css",
         "https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap",
         "css/plugins.css",
         "css/plugins.css",
-        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css",
+//        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css",
 //        "fontawesome/css/all.css",
 //        "fontawesome/css/fontawesome.css",
         "css/style.css",

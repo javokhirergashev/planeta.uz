@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2">
 
-                    <h1>Costa Victoria Cochin</h1>
-                    <h4><i class="ti-location-pin"></i> Maldives &nbsp;&nbsp; <i class="ti-timer"></i> 4 Days + 3 Nights</h4>
+                    <h1><?=Yii::t("app", "banner_info")?></h1>
+<!--                    <h4><i class="ti-location-pin"></i> Maldives &nbsp;&nbsp; <i class="ti-timer"></i> 4 Days + 3 Nights</h4>-->
 
                 </div>
             </div>

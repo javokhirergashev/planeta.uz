@@ -16,6 +16,9 @@
                         <li class="nav-item"><a class="nav-link" href="<?=$model->link?>"><?=$model['name_'.Yii::$app->language];?></a></li>
                     <?php endforeach; ?>
                 <?php endif; ?>
+
+                <img src="/frontend-files/img/sun.png" id="sun" alt="">
+                <a id="signup" href="<?=\yii\helpers\Url::to(['admin/'])?>"><i id="signup" class="uil uil-signout"></i></a>
                 <li class="nav-item dropdown" style="margin-left: 50px"> <span class="nav-link"> <?=Yii::$app->language?></span>
                     <ul class="dropdown-menu last">
                         <?php
@@ -23,6 +26,8 @@
                             echo "<li class='dropdown-item'><a href='".\yii\helpers\Url::to(['site/ozgar',"til"=>$key])."'>".$value."</a></li>";
                         }
                         ?>
+
+
 
                     </ul>
                 </li>

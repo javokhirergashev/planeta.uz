@@ -52,7 +52,13 @@ return[
     "france" => "Fransiya, Yevropa",
     "italyp"  => "Italiya Respublikasi Yevropa janubida, Oʻrta dengiz havzasida joylashgan davlat. Apennin yarim orol, Sitsiliya, Sardiniya va boshqa kichik orollarni oʻz ichiga olgan.",
     "francep"  => "Gʻarbiy Yevropadagi davlat. Gʻarbda va shimolda Atlantika okeani hamda La-Mansh boʻgʻozi, janubida Oʻrta dengiz bilan oʻralgan.",
-    "view" => "Barcha joylarni ko'rish",
+        "view" => "Barcha joylarni ko'rish",
+
+
+
+//  Banner page
+    "banner_info" => "Biz bilan birgaligingizdan juda hursandmiz",
+
 
 
 //     blog page

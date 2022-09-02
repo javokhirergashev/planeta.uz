@@ -48,7 +48,9 @@ body {
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
-* {
+
+
+*{
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -57,6 +59,101 @@ body {
     list-style: none;
     word-wrap: break-word;
 }
+
+body.dark-mode section, body.dark-mode nav.nav-scroll,
+body.dark-mode .blog .item .con{
+    background-color: #333232;
+    color: white!important;
+}
+
+body.dark-mode .blog .item .con{
+    background-color: #424242;
+    color: white;
+}
+body.dark-mode .blog .item .con a{
+    color: white;
+}
+
+body.dark-mode .testimonials-box{
+    background-color: #424242;
+    color: white;
+}
+
+body.dark-mode .testimonials-box .head-box h6,
+body.dark-mode .testimonials-box .head-box h4{
+    color: white;
+}
+
+body.dark-mode .testimonials-box .owl-theme .item p{
+    color: white;
+}
+
+body.dark-mode .testimonials-box .owl-theme .cont h6,
+body.dark-mode .testimonials-box .owl-theme .cont span{
+    color: white;
+}
+
+body.dark-mode .contact #white{
+    color: #2095AE;
+}
+
+
+body.dark-mode .contact .right-sidebar .item-form{
+    background-color: #424242;
+}
+
+.square-flip #backwhite{
+    background-color: white!important;
+}
+
+body.dark-mode .square-flip #backwhite{
+    background-color: #515151!important;
+    color: white;
+}
+
+
+body.dark-mode .contact .right-sidebar .item-form .form-group input,
+body.dark-mode .contact .right-sidebar .item-form .form-group select,
+body.dark-mode .contact .right-sidebar .item-form .form-group textarea,
+body.dark-mode .square-flip #backwhite,
+body.dark-mode .tours2.left .caption{
+    background-color: #515151;
+    color: white;
+}
+
+body.dark-mode .square-flip .bg-whitee h4,
+body.dark-mode .square-flip .bg-whitee h6,
+body.dark-mode .square-flip .bg-whitee p,
+body.dark-mode .square-flip .bg-whitee .col-md-6 ul li,
+body.dark-mode .square-flip .bg-whitee .btn-line a,
+body.dark-mode .tours2.left .caption .country1 h4 a,
+body.dark-mode .tours2.left .caption .country1 p,
+body.dark-mode .tours2.left .caption .country1 .col-md-4 ul li a,
+body.dark-mode .tours2.left .caption .country1 .info-wrapper a
+{
+        color: white;
+}
+
+
+
+body.dark-mode .contact .right-sidebar .item-form .form-group input::placeholder,
+body.dark-mode .contact .right-sidebar .item-form .form-group textarea::placeholder{
+    color: white;
+}
+
+
+
+
+body.dark-mode nav.nav-scroll .navbar-nav li a,
+body.dark-mode nav.nav-scroll .navbar-nav #signup,
+body.dark-mode nav.nav-scroll .navbar-nav .nav-link,
+body.dark-mode .blog .item .con{
+    color: white;
+}
+
+
+
+
 body {
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
@@ -4992,4 +5089,29 @@ ol.comment-list li .children li {
     .post-comment-section h3 span {
         margin-left: 0px;
     }
+}
+
+
+
+#sun {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+
+
+#signup{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.nav-scroll .navbar-nav #signup {
+    color: #0f2454;
 }

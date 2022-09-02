@@ -4,7 +4,7 @@
         <div class="row mb-90">
             <div class="col-md-6 mb-60">
 
-                <h3><?=Yii::t("app", "contactt1")?></h3>
+                <h3 id="white"><?=Yii::t("app", "contactt1")?></h3>
                 <p><?=Yii::t("app", "contactp")?></p>
                 <?php if (!empty($models)): ?>
                 <?php foreach ($models as $model): ?>
@@ -23,7 +23,7 @@
                 <div class="phone-call">
                     <div class="icon"><span class="flaticon-placeholder"></span></div>
                     <div class="text">
-                        <p><?=Yii::t('app','location')?></p><?=$model->addres?>
+                        <p><?=Yii::t('app','location')?></p><a href="#"><?=$model->addres?></a>
                     </div>
                 </div>
                     <?php endforeach;?>
