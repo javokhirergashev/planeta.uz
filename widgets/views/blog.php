@@ -28,7 +28,8 @@
 <!--                                <a href="post.html"> <span>Dec</span> <i>04</i> </a>-->
 <!--                            </div>-->
                         </div>
-                        <div class="con"> <span class="category">
+                        <div class="con">
+                            <span class="category">
                                     <a href="blog.html"><?=Yii::t("app", "tour")?></a>
                                 </span>
                             <h5><a href="post.html"><?=Yii::t("app", "imgp2")?></a></h5>

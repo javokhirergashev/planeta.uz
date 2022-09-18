@@ -1,4 +1,4 @@
-<div class="tours3 section-padding bg-lightnav">
+<section class="tours3 section-padding bg-lightnav">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -26,7 +26,7 @@
                                 </div>
                                 <div class="flip-overlay"></div>
                             </div>
-                            <div class="square2 bg-white">
+                            <div class="square2 bg-whitee" id="backwhite">
                                 <div class="square-container2">
                                     <h4><?=$model['title_'.Yii::$app->language];?></h4>
                                     <h6><?=$model->price?></h6>
@@ -54,4 +54,4 @@
             <?php endif; ?>
         </div>
     </div>
-</div>
+</section>

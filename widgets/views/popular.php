@@ -14,7 +14,6 @@
                         <figure><img src="frontend-files/img/tours/rome1.jpg" alt="" class="img-fluid"></figure>
                         <div class="caption padding-left">
                             <div class="country country1">
-                                <h3></h3>
                                 <h4><a href="tour-details.html"><?=Yii::t("app", "italy")?></a></h4>
                                 <p><?=Yii::t("app", "italyp")?></p>
                                 <div class="row tour-list">

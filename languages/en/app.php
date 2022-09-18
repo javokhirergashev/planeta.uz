@@ -51,6 +51,14 @@ return[
     "italyp"  => "A country located in southern Europe, in the Mediterranean basin. The Apennine Peninsula included Sicily, Sardinia and other small islands.",
     "francep" => "A country in Western Europe. It is surrounded by the Atlantic Ocean and the English Channel to the west and north, and the Mediterranean Sea to the south.",
     "view" => "View all locations",
+<<<<<<< HEAD
+=======
+
+
+    //  Banner page
+    "banner_info" => "Мы очень гордимся тем, что вы с нами",
+
+>>>>>>> d0ea96568de1b654006eed07aef2ca24bd3e8dee
 
 
 //     blog page
