@@ -98,8 +98,14 @@ body.dark-mode .contact #white{
 }
 
 
+
 body.dark-mode .contact .right-sidebar .item-form{
     background-color: #424242;
+}
+
+#dataimg{
+    width: 100%;
+    display: inline-block;
 }
 
 .square-flip #backwhite{
@@ -2446,9 +2452,10 @@ hr.border-2 {
 }
 .tours3 .square h4 {
     color: #fff;
-    font-size: 27px;
+    font-size: 22px;
     text-align: left;
     margin-bottom: 10px;
+    margin-right: 10px;
     display: inline-flex;
 }
 .tours3 .square h6, .tours3 .square h6 a {
@@ -2541,9 +2548,9 @@ hr.border-2 {
     transform-style: preserve-3d;
 }
 .tours3 .square-container {
-    padding: 40px;
-    text-align: right;
-    height: 450px;
+    padding: 30px;
+    text-align: left;
+    /*height: 450px;*/
     position: relative;
     -webkit-transition: -webkit-transform 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.25);
     transition: -webkit-transform 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.25);
