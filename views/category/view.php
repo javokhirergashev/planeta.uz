@@ -13,14 +13,22 @@
             <?php if (!empty($models)):?>
                 <?php foreach ($models as $model) : ?>
                     <?php
+<<<<<<< HEAD
+                    $image = \app\models\StaticFunctions::getImage('tours',$model->id,$model->images);
+=======
                     $image = \app\models\StaticFunctions::getImage('tours', $model->id, $model->images);
+>>>>>>> d0ea96568de1b654006eed07aef2ca24bd3e8dee
                     if (is_file($image)){
                         $image = "images/no_photo.png";
                     }
                     ?>
                     <div class="col-md-4">
                         <div class="square-flip">
+<<<<<<< HEAD
+                            <div class="square bg-img" data-background="<?=$image?>"> <span class="category"><a href="#"><?=$model['title_'.Yii::$app->language];?></a></span>
+=======
                             <div class="square bg-img"><img id="dataimg" src="<?=$image?>" alt=""> <span class="category"><a href="#"><?=$model['title_'.Yii::$app->language];?></a></span>
+>>>>>>> d0ea96568de1b654006eed07aef2ca24bd3e8dee
                                 <div class="square-container d-flex align-items-end justify-content-end">
                                     <div class="box-title">
                                         <h4><?=$model['title_'.Yii::$app->language];?></h4>
