@@ -4,7 +4,7 @@
         <!-- Logo -->
         <div class="logo-wrapper navbar-brand valign">
             <a href="index2.html">
-                <div class="logo"> <img src="/frontend-files/img/logo-light.png" class="logo-img" alt=""> </div>
+                <div class="logo"> <img src="/frontend-files/img/ummat_logo.svg" class="logo-img" alt=""> </div>
             </a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>

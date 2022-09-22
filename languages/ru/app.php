@@ -53,7 +53,7 @@ return[
 
 
     //  Banner page
-        "banner_info" => "Biz bilan birga ekanligingizdan juda hursandmiz",
+        "banner_info" => "Мы очень рады, что вы с нами",
 
 
 
@@ -100,6 +100,10 @@ return[
     "subscribe" => "Подписывайся",
     "subsinfo" => "Подпишитесь на наш ежемесячный информационный бюллетень, чтобы получать новости о путешествиях и путешествиях.",
 
+
+
+//  Torsview page
+    "payme" => "онлайн платеж",
 
 
 ]

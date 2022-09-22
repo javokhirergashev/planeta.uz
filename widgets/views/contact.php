@@ -82,7 +82,7 @@
                                         </select>
                                     </div>
                                     <div class="col-md-12 form-group">
-                                        <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
+                                        <textarea name="message" id="message" cols="30" rows="4" placeholder="<?=Yii::t("app", "message")?> *" required></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <button id="submit" onclick="getValue()" class="butn-dark"><a href="#0"><span><?=Yii::t("app", "send")?></span></a></button>

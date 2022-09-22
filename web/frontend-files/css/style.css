@@ -155,6 +155,11 @@ body.dark-mode nav.nav-scroll .navbar-nav #signup,
 body.dark-mode nav.nav-scroll .navbar-nav .nav-link,
 body.dark-mode .blog .item .con{
     color: white;
+
+}
+
+body.dark-mode nav.nav-scroll .navbar-nav .dropdown-menu{
+    background-color: #333232;
 }
 
 

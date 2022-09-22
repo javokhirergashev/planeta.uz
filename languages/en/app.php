@@ -16,8 +16,7 @@ return[
     //    About page
     "best" => "The best travel agency",
     "aboutDis" => "Discover the",
-    "aboutW" => "World",
-    "aboutg" => "with us",
+    "aboutg" => "World with us",
     "aboutp1" => "You can choose any country with good tourism. We will create all the comforts for you. We have adventure tours for you at affordable prices.",
     "aboutp2" => "Our hotels are very convenient and affordable for you",
     "experience" => "Years of Experience",
@@ -54,7 +53,7 @@ return[
 
 
     //  Banner page
-    "banner_info" => "Мы очень гордимся тем, что вы с нами",
+    "banner_info" => "We are very glad to have you with us",
 
 
 
@@ -99,6 +98,12 @@ return[
     "menulinks" => "Sections",
     "subscribe" => "Subscribe",
     "subsinfo" => "Sign up for our monthly blogletter to stay informed about travel and tours",
+
+
+
+//  Torsview page
+
+    "payme" => "online payment",
 
 ]
 

@@ -17,7 +17,7 @@ return[
 //    About page
     "best" => "Eng yaxshi sayyohlik agentligi",
     "aboutDis" => "dunyoni",
-    "aboutg" => "bilan kashf eting",
+    "aboutg" => "biz bilan kashf eting",
     "aboutp1" => "Yaxshi turizmga ega har qanday mamlakatni tanlashingiz mumkin. Biz siz uchun barcha qulayliklarni yaratib beramiz. Bizda  siz uchun qulay narxlar sarguzashtga boy sayohatlar mavjud.",
     "aboutp2" => "Bizning mehmonxonalarimiz siz uchun juda qulay va xamyonbob",
     "experience" => "Yillik tajriba",
@@ -103,6 +103,11 @@ return[
     "menulinks" => "Bo'limlar",
     "subscribe" => "Obuna boʻling",
     "subsinfo" => "Sayohat va sayohatlar haqida xabardor bo'lish uchun oylik blog xatimizga obuna bo'ling",
+
+
+
+//  Torsview page
+    "payme" => "online to'lov qilish",
 ]
 
 ?>
